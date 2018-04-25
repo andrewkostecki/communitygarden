@@ -25,8 +25,6 @@
                             </div>
                         </div>
 
-                        
-
                         <div class="form-group row">
                             <label for="room" class="col-md-4 col-form-label text-md-right">{{ __('Room') }}</label>
 
