@@ -17,6 +17,7 @@
                             <td>Comments</td>
                             <td>Image File Name</td>
                             <td></td>
+                            <td></td>
                         </tr>
                         @foreach($plants as $plant)
                             <tr>
@@ -24,6 +25,7 @@
                                 <td>{{ $plant['comments'] }}</td>
                                 <td>{{ $plant['imageFileName'] }}</td>
                                 <td><a href='/plants/edit/{{ $plant['id'] }}'>Edit</a></td>
+                                <td><a href='/notes/plant/{{$plant['id']}}'>Notes</a></td>
                             </tr>
                         @endforeach
                     </table>
